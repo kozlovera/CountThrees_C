@@ -1,3 +1,6 @@
+default: clean Count3s runCount3s
+clean:
+	rm -f Count3s
 runCount3s: 
 	./Count3s
 Count3s:
